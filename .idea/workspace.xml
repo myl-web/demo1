@@ -55,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="189">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -149,6 +149,7 @@
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="D:\Program Files\Git\cmd\git.exe" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -194,11 +195,12 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1125" />
     <option name="width" value="806" />
     <option name="height" value="1044" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -435,8 +437,23 @@
       <updated>1600845571475</updated>
       <workItem from="1600845574711" duration="1211000" />
       <workItem from="1600846979140" duration="17570000" />
-      <workItem from="1600904532621" duration="1395000" />
+      <workItem from="1600904532621" duration="2025000" />
     </task>
+    <task id="LOCAL-00001" summary="首次测试...">
+      <created>1600906311315</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600906311315</updated>
+    </task>
+    <task id="LOCAL-00002" summary="首次测试...">
+      <created>1600906686629</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600906686629</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -472,12 +489,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20176000" />
+    <option name="totallyTimeSpent" value="20806000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="750" y="0" width="537" height="696" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3841336" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38399354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -494,9 +512,9 @@
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.32809773" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.89703315" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.89685315" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32867134" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.55497384" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -504,7 +522,7 @@
       <window_info anchor="right" id="Maven" order="3" weight="0.32821342" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" weight="0.32985386" />
       <window_info anchor="right" id="Database" order="7" weight="0.35165724" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -545,6 +563,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="首次测试..." />
+    <option name="LAST_COMMIT_MESSAGE" value="首次测试..." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d5833991-9e69-47d9-9279-baa2dbfe18bc/console.sql">
@@ -635,8 +657,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="189">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
