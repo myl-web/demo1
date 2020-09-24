@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- mybatis的主配置文件 -->
+<configuration>
+    <!-- 配置外部文件 -->
+    <properties resource="db.properties"></properties>
+    <!-- 配置别名 -->
+    <typeAliases>
+        <!--        <typeAlias type="com.myl.entity.User" alias="user"></typeAlias>-->
+        <package name="com.myl.entity"/>
+    </typeAliases>
+    <!-- 配置环境 -->
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+             <!--配置数据源（连接池)-->
+        <!--  <dataSource type="POOLED">-->
+        <!--  <property name="driver" value="${jdbc.driver}"/>-->
+        <!--  <property name="url" value="${jdbc.url}"/>-->
+        <!--  <property name="username" value="${jdbc.username}"/>-->
+        <!--  <property name="password" value="${jdbc.password}"/>-->
+        <!--  </dataSource>-->
+       <dataSource type="com.myl.untils.DruidDataSourceFactory">
+           <property name="driverClass" value="${jdbc.driver}"/>
+           <property name="jdbcUrl" value="${jdbc.url}"/>
+           <property name="username" value="${jdbc.username}"/>
+           <property name="password" value="${jdbc.password}"/>
+       </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 指定映射配置文件的位置，映射配置文件指的是每个dao独立的配置文件 -->
+    <mappers>
+        <mapper resource="com/myl/dao/UserDao.xml"/>
+        <!--<mapper class="com.myl.dao.UserDao"/>-->
+        <!--<package name="com.myl.dao"/>-->
+    </mappers>
+
+
+</configuration>
